@@ -13,6 +13,9 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="소스 파일\this Call">
+      <UniqueIdentifier>{dd4a4179-57f4-4213-871e-dcddc77134e5}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -21,5 +24,52 @@
     <ClCompile Include="class1.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\101_HELLOCPP\chronometry.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\102_THISCALL\this1.cpp">
+      <Filter>소스 파일\this Call</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\102_THISCALL\this2.cpp">
+      <Filter>소스 파일\this Call</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\102_THISCALL\this3.cpp">
+      <Filter>소스 파일\this Call</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\102_THISCALL\this4.cpp">
+      <Filter>소스 파일\this Call</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\102_THISCALL\this5.cpp">
+      <Filter>소스 파일\this Call</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\102_THISCALL\this6.cpp">
+      <Filter>소스 파일\this Call</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\102_THISCALL\this7.cpp">
+      <Filter>소스 파일\this Call</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\102_THISCALL\this8.cpp">
+      <Filter>소스 파일\this Call</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\102_THISCALL\this9.cpp">
+      <Filter>소스 파일\this Call</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\102_THISCALL\this10.cpp">
+      <Filter>소스 파일\this Call</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\102_THISCALL\this11.cpp">
+      <Filter>소스 파일\this Call</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\102_THISCALL\this12.cpp">
+      <Filter>소스 파일\this Call</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\102_THISCALL\this13.cpp">
+      <Filter>소스 파일\this Call</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\102_THISCALL\ecourse.hpp">
+      <Filter>소스 파일\this Call</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>

@@ -146,10 +146,29 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="class1.cpp" />
+    <ClCompile Include="..\..\101_HELLOCPP\chronometry.cpp" />
+    <ClCompile Include="..\..\102_THISCALL\this1.cpp" />
+    <ClCompile Include="..\..\102_THISCALL\this10.cpp" />
+    <ClCompile Include="..\..\102_THISCALL\this11.cpp" />
+    <ClCompile Include="..\..\102_THISCALL\this12.cpp" />
+    <ClCompile Include="..\..\102_THISCALL\this13.cpp" />
+    <ClCompile Include="..\..\102_THISCALL\this2.cpp" />
+    <ClCompile Include="..\..\102_THISCALL\this3.cpp" />
+    <ClCompile Include="..\..\102_THISCALL\this4.cpp" />
+    <ClCompile Include="..\..\102_THISCALL\this5.cpp" />
+    <ClCompile Include="..\..\102_THISCALL\this6.cpp" />
+    <ClCompile Include="..\..\102_THISCALL\this7.cpp" />
+    <ClCompile Include="..\..\102_THISCALL\this8.cpp" />
+    <ClCompile Include="..\..\102_THISCALL\this9.cpp" />
+    <ClCompile Include="class1.cpp">
+      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
+    </ClCompile>
     <ClCompile Include="main.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\102_THISCALL\ecourse.hpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
