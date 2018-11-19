@@ -21,7 +21,7 @@ public:
 	void Create ()
 	{
 		int h1=ec_make_window ( foo ); // 윈도우창 생성.
-		m_mWindows[ h1 ]=this;
+		m_mWindows[ h1 ] = this;
 	}
 
 	static int foo ( int hwnd, int msg, int param1, int param2 )

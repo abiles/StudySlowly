@@ -22,7 +22,8 @@ int main()
 	C obj;
 
 	A* pA = &obj;
-	B* pB = &obj; // &obj + sizeof(A)
+	B* pB = &obj; // &obj + sizeof(A) //// A만큼 뒤로 밀려나도록 컴파일러가 신경써줌, 그래야 진짜 B가 있으니까
+	//// 다중 상속 객체에서 자식 class의 주소를 취할 때 순서에 따라 같은 &obj 이어도 다른 주소를 토해낼 수 있다
 
 	cout << &obj << endl; // 1000 
 	cout << pA   << endl; // 1000
