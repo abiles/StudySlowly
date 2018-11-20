@@ -14,6 +14,9 @@ class Point
 	int x, y;
 
 	// mutable  멤버 변수 : 상수멤버함수 안에서도 값을 변경가능.
+	//// 결국에는 이런 짓을 왜해야 되느냐가 중요한 것이겠죠?
+	////  getter 형식인데 내부적으로 변경사항이 필요한 경우에 mutable을 사용하는 것이지요
+
 	mutable char cache[16];
 	mutable bool cache_valid = false;
 public:

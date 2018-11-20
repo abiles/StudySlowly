@@ -160,6 +160,15 @@
     <ClCompile Include="..\..\102_THISCALL\this7.cpp" />
     <ClCompile Include="..\..\102_THISCALL\this8.cpp" />
     <ClCompile Include="..\..\102_THISCALL\this9.cpp" />
+    <ClCompile Include="..\..\103_CONST_MEMBER_FUNCTION\const1.cpp" />
+    <ClCompile Include="..\..\103_CONST_MEMBER_FUNCTION\const2.cpp" />
+    <ClCompile Include="..\..\103_CONST_MEMBER_FUNCTION\const3.cpp" />
+    <ClCompile Include="..\..\103_CONST_MEMBER_FUNCTION\const4.cpp" />
+    <ClCompile Include="..\..\103_CONST_MEMBER_FUNCTION\const5.cpp" />
+    <ClCompile Include="..\..\103_CONST_MEMBER_FUNCTION\const6.cpp" />
+    <ClCompile Include="..\..\103_CONST_MEMBER_FUNCTION\const7.cpp" />
+    <ClCompile Include="..\..\103_CONST_MEMBER_FUNCTION\const8.cpp" />
+    <ClCompile Include="..\..\103_CONST_MEMBER_FUNCTION\Point.cpp" />
     <ClCompile Include="class1.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>
@@ -169,6 +178,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\102_THISCALL\ecourse.hpp" />
+    <ClInclude Include="..\..\103_CONST_MEMBER_FUNCTION\Point.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

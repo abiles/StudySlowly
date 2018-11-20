@@ -21,7 +21,7 @@ void Test::goo() const
 
 }
 
-
+//// 일반 객체와 상수 객체의 함수 호출시 우선순위
 int main()
 {
 	Test t1;
