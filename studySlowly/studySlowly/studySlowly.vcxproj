@@ -169,6 +169,15 @@
     <ClCompile Include="..\..\103_CONST_MEMBER_FUNCTION\const7.cpp" />
     <ClCompile Include="..\..\103_CONST_MEMBER_FUNCTION\const8.cpp" />
     <ClCompile Include="..\..\103_CONST_MEMBER_FUNCTION\Point.cpp" />
+    <ClCompile Include="..\..\104_NEW\new1.cpp" />
+    <ClCompile Include="..\..\104_NEW\new2.cpp" />
+    <ClCompile Include="..\..\104_NEW\new3.cpp" />
+    <ClCompile Include="..\..\104_NEW\new4.cpp" />
+    <ClCompile Include="..\..\104_NEW\new5.cpp" />
+    <ClCompile Include="..\..\104_NEW\new6.cpp" />
+    <ClCompile Include="..\..\104_NEW\new7.cpp" />
+    <ClCompile Include="..\..\104_NEW\new8.cpp" />
+    <ClCompile Include="..\..\104_NEW\new9.cpp" />
     <ClCompile Include="class1.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
     </ClCompile>

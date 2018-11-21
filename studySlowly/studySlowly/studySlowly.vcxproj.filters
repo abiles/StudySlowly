@@ -19,6 +19,9 @@
     <Filter Include="소스 파일\102_THISCALL">
       <UniqueIdentifier>{dd4a4179-57f4-4213-871e-dcddc77134e5}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\104_NEW">
+      <UniqueIdentifier>{ef29c125-e138-4fc8-a029-03b57f9d57ed}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
@@ -95,6 +98,33 @@
     </ClCompile>
     <ClCompile Include="..\..\103_CONST_MEMBER_FUNCTION\Point.cpp">
       <Filter>소스 파일\103_CONST_MEMBER_FUNCTION</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\104_NEW\new1.cpp">
+      <Filter>소스 파일\104_NEW</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\104_NEW\new2.cpp">
+      <Filter>소스 파일\104_NEW</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\104_NEW\new3.cpp">
+      <Filter>소스 파일\104_NEW</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\104_NEW\new4.cpp">
+      <Filter>소스 파일\104_NEW</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\104_NEW\new5.cpp">
+      <Filter>소스 파일\104_NEW</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\104_NEW\new6.cpp">
+      <Filter>소스 파일\104_NEW</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\104_NEW\new7.cpp">
+      <Filter>소스 파일\104_NEW</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\104_NEW\new8.cpp">
+      <Filter>소스 파일\104_NEW</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\104_NEW\new9.cpp">
+      <Filter>소스 파일\104_NEW</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

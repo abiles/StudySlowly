@@ -29,7 +29,7 @@ int main()
 	Point* p1 = (Point*)malloc(sizeof(Point));
 	free(p1);
 
-	// new : 메모리 할당 + 생성자 호출
+	// new : 메모리 할당 + 생성자 호출 //// + 메모리 주소를 해당 타입으로 반환
 	Point* p2 = new Point;	
 	delete p2;									
 	*/

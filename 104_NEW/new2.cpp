@@ -31,7 +31,7 @@ void operator delete(void* p) noexcept
 
 int main()
 {
-	Point* p = new Point;	// 1. 메모리 할당 - operator new( sizeof(Point))
+	Point* p = new Point;	// 1. 메모리 할당 - operator new( sizeof(Point)) //// operator new 는 함수 입니다. 그냥 new는 연산자 입니다.
 							// 2. 생성자 호출
 	delete p;
 }

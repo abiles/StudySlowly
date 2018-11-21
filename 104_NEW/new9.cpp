@@ -22,12 +22,14 @@ public:
 
 int main()
 {
-	// IPC : 공유메모리를 사용한 프로세스간 통신, mmap()
+	// IPC : 공유메모리를 사용한 프로세스간 통신, 리눅스 : mmap()
 
+	//// 공유메모리를 sizeof(Point)만큼 잡아줌
+	//// c기반이기 때문에 생성자는 불리지 않았다
 	HANDLE hMap = CreateFileMappingA(INVALID_HANDLE_VALUE, 0, PAGE_READWRITE, 0, sizeof(Point), 0);
 	
 	Point* p = (Point*)MapViewOfFile(hMap, FILE_MAP_ALL_ACCESS, 0, 0, 0);
 
-	new(p) Point(0, 0);
+	new(p) Point(0, 0); //// 공유메모리 안에 객체가 탄생!
 
 }
