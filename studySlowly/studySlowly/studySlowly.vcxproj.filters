@@ -22,17 +22,11 @@
     <Filter Include="소스 파일\104_NEW">
       <UniqueIdentifier>{ef29c125-e138-4fc8-a029-03b57f9d57ed}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\105_NAME_MANGLING">
+      <UniqueIdentifier>{59c223f7-d68e-44d8-a843-22d00836cc78}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="main.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="class1.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\101_HELLOCPP\chronometry.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\102_THISCALL\this1.cpp">
       <Filter>소스 파일\102_THISCALL</Filter>
     </ClCompile>
@@ -126,6 +120,24 @@
     <ClCompile Include="..\..\104_NEW\new9.cpp">
       <Filter>소스 파일\104_NEW</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\105_NAME_MANGLING\main.cpp">
+      <Filter>소스 파일\105_NAME_MANGLING</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\105_NAME_MANGLING\square.c">
+      <Filter>소스 파일\105_NAME_MANGLING</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\105_NAME_MANGLING\name1.cpp">
+      <Filter>소스 파일\105_NAME_MANGLING</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\105_NAME_MANGLING\name2.cpp">
+      <Filter>소스 파일\105_NAME_MANGLING</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\105_NAME_MANGLING\name3.cpp">
+      <Filter>소스 파일\105_NAME_MANGLING</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\105_NAME_MANGLING\name4.cpp">
+      <Filter>소스 파일\105_NAME_MANGLING</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\102_THISCALL\ecourse.hpp">
@@ -133,6 +145,9 @@
     </ClInclude>
     <ClInclude Include="..\..\103_CONST_MEMBER_FUNCTION\Point.h">
       <Filter>소스 파일\103_CONST_MEMBER_FUNCTION</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\105_NAME_MANGLING\square.h">
+      <Filter>소스 파일\105_NAME_MANGLING</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>

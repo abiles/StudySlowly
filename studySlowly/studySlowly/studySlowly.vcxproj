@@ -146,7 +146,6 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
-    <ClCompile Include="..\..\101_HELLOCPP\chronometry.cpp" />
     <ClCompile Include="..\..\102_THISCALL\this1.cpp" />
     <ClCompile Include="..\..\102_THISCALL\this10.cpp" />
     <ClCompile Include="..\..\102_THISCALL\this11.cpp" />
@@ -178,16 +177,17 @@
     <ClCompile Include="..\..\104_NEW\new7.cpp" />
     <ClCompile Include="..\..\104_NEW\new8.cpp" />
     <ClCompile Include="..\..\104_NEW\new9.cpp" />
-    <ClCompile Include="class1.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
-    <ClCompile Include="main.cpp">
-      <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">true</ExcludedFromBuild>
-    </ClCompile>
+    <ClCompile Include="..\..\105_NAME_MANGLING\main.cpp" />
+    <ClCompile Include="..\..\105_NAME_MANGLING\name1.cpp" />
+    <ClCompile Include="..\..\105_NAME_MANGLING\name2.cpp" />
+    <ClCompile Include="..\..\105_NAME_MANGLING\name3.cpp" />
+    <ClCompile Include="..\..\105_NAME_MANGLING\name4.cpp" />
+    <ClCompile Include="..\..\105_NAME_MANGLING\square.c" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\102_THISCALL\ecourse.hpp" />
     <ClInclude Include="..\..\103_CONST_MEMBER_FUNCTION\Point.h" />
+    <ClInclude Include="..\..\105_NAME_MANGLING\square.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
