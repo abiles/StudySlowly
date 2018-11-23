@@ -183,6 +183,17 @@
     <ClCompile Include="..\..\105_NAME_MANGLING\name3.cpp" />
     <ClCompile Include="..\..\105_NAME_MANGLING\name4.cpp" />
     <ClCompile Include="..\..\105_NAME_MANGLING\square.c" />
+    <ClCompile Include="..\..\106_CONSTRUCTOR\ctor1.cpp" />
+    <ClCompile Include="..\..\106_CONSTRUCTOR\ctor10.cpp" />
+    <ClCompile Include="..\..\106_CONSTRUCTOR\ctor11.cpp" />
+    <ClCompile Include="..\..\106_CONSTRUCTOR\ctor2.cpp" />
+    <ClCompile Include="..\..\106_CONSTRUCTOR\ctor3.cpp" />
+    <ClCompile Include="..\..\106_CONSTRUCTOR\ctor4.cpp" />
+    <ClCompile Include="..\..\106_CONSTRUCTOR\ctor5.cpp" />
+    <ClCompile Include="..\..\106_CONSTRUCTOR\ctor6.cpp" />
+    <ClCompile Include="..\..\106_CONSTRUCTOR\ctor7.cpp" />
+    <ClCompile Include="..\..\106_CONSTRUCTOR\ctor8.cpp" />
+    <ClCompile Include="..\..\106_CONSTRUCTOR\ctor9.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\102_THISCALL\ecourse.hpp" />

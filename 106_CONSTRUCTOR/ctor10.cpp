@@ -26,11 +26,11 @@ public:
 	Test() : p(new Resource)
 	{
 		cout << "Test()" << endl;
-		throw 1;
+		throw 1; //// 여기서 throw가 생기면 Test의 소멸자는 불리지 않지만 '멤버' 데이터의 소멸자는 불리기 때문에 unique_ptr의 소멸자는 불리게 되어 자원낭비가 없게 됨
 	}
 	~Test()
 	{
-		//delete p;
+		//delete p; //// unique_ptr 사용하니까 delete 필요 없죠
 		cout << "~Test()" << endl;
 	}
 };

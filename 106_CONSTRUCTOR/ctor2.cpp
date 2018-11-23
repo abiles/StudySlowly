@@ -23,6 +23,14 @@ public:
 	{
 		cout << "D()" << endl; 
 	}
+	//// 내가 아무것도 지정하지 않았다면 아래가 암묵적으로 만들어짐
+	/*
+	Derived ( int a ) : Base ( )
+	{
+		cout << "D(int)" << endl;
+	}
+	*/
+
 	Derived(int a) : Base(a)
 	{ 
 		cout << "D(int)" << endl; 
