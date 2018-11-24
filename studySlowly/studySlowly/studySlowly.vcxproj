@@ -194,6 +194,8 @@
     <ClCompile Include="..\..\106_CONSTRUCTOR\ctor7.cpp" />
     <ClCompile Include="..\..\106_CONSTRUCTOR\ctor8.cpp" />
     <ClCompile Include="..\..\106_CONSTRUCTOR\ctor9.cpp" />
+    <ClCompile Include="..\..\108_TRIVIAL\trivial1.cpp" />
+    <ClCompile Include="..\..\108_TRIVIAL\trivial2.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\102_THISCALL\ecourse.hpp" />

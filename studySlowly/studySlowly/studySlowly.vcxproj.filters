@@ -28,6 +28,9 @@
     <Filter Include="소스 파일\106_CONSTRUCTOR">
       <UniqueIdentifier>{d248e7e8-e19b-4473-9e81-31b423986e99}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\108_TRIVIAL">
+      <UniqueIdentifier>{ff4bc0d8-bee2-432a-9f29-744f2dccb6c7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\102_THISCALL\this1.cpp">
@@ -173,6 +176,12 @@
     </ClCompile>
     <ClCompile Include="..\..\106_CONSTRUCTOR\ctor11.cpp">
       <Filter>소스 파일\106_CONSTRUCTOR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\108_TRIVIAL\trivial1.cpp">
+      <Filter>소스 파일\108_TRIVIAL</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\108_TRIVIAL\trivial2.cpp">
+      <Filter>소스 파일\108_TRIVIAL</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
