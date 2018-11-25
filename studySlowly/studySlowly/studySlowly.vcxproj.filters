@@ -31,6 +31,9 @@
     <Filter Include="소스 파일\108_TRIVIAL">
       <UniqueIdentifier>{ff4bc0d8-bee2-432a-9f29-744f2dccb6c7}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\107_CONVERSION">
+      <UniqueIdentifier>{a2cd9305-2cbb-4100-b888-3046e9fb1729}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\102_THISCALL\this1.cpp">
@@ -183,6 +186,57 @@
     <ClCompile Include="..\..\108_TRIVIAL\trivial2.cpp">
       <Filter>소스 파일\108_TRIVIAL</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\107_CONVERSION\conv1.cpp">
+      <Filter>소스 파일\107_CONVERSION</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\107_CONVERSION\conv2.cpp">
+      <Filter>소스 파일\107_CONVERSION</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\107_CONVERSION\conv3.cpp">
+      <Filter>소스 파일\107_CONVERSION</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\107_CONVERSION\conv4.cpp">
+      <Filter>소스 파일\107_CONVERSION</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\107_CONVERSION\conv5.cpp">
+      <Filter>소스 파일\107_CONVERSION</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\107_CONVERSION\conv6.cpp">
+      <Filter>소스 파일\107_CONVERSION</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\107_CONVERSION\conv7.cpp">
+      <Filter>소스 파일\107_CONVERSION</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\107_CONVERSION\conv8.cpp">
+      <Filter>소스 파일\107_CONVERSION</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\107_CONVERSION\conv9.cpp">
+      <Filter>소스 파일\107_CONVERSION</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\107_CONVERSION\conv10.cpp">
+      <Filter>소스 파일\107_CONVERSION</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\107_CONVERSION\conv11.cpp">
+      <Filter>소스 파일\107_CONVERSION</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\107_CONVERSION\conv12.cpp">
+      <Filter>소스 파일\107_CONVERSION</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\107_CONVERSION\conv13.cpp">
+      <Filter>소스 파일\107_CONVERSION</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\107_CONVERSION\conv14.cpp">
+      <Filter>소스 파일\107_CONVERSION</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\107_CONVERSION\conv15.cpp">
+      <Filter>소스 파일\107_CONVERSION</Filter>
+    </ClCompile>
+    <ClCompile Include="class1.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\102_THISCALL\ecourse.hpp">
@@ -194,5 +248,10 @@
     <ClInclude Include="..\..\105_NAME_MANGLING\square.h">
       <Filter>소스 파일\105_NAME_MANGLING</Filter>
     </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\107_CONVERSION\readme.txt">
+      <Filter>소스 파일\107_CONVERSION</Filter>
+    </Text>
   </ItemGroup>
 </Project>

@@ -194,13 +194,33 @@
     <ClCompile Include="..\..\106_CONSTRUCTOR\ctor7.cpp" />
     <ClCompile Include="..\..\106_CONSTRUCTOR\ctor8.cpp" />
     <ClCompile Include="..\..\106_CONSTRUCTOR\ctor9.cpp" />
+    <ClCompile Include="..\..\107_CONVERSION\conv1.cpp" />
+    <ClCompile Include="..\..\107_CONVERSION\conv10.cpp" />
+    <ClCompile Include="..\..\107_CONVERSION\conv11.cpp" />
+    <ClCompile Include="..\..\107_CONVERSION\conv12.cpp" />
+    <ClCompile Include="..\..\107_CONVERSION\conv13.cpp" />
+    <ClCompile Include="..\..\107_CONVERSION\conv14.cpp" />
+    <ClCompile Include="..\..\107_CONVERSION\conv15.cpp" />
+    <ClCompile Include="..\..\107_CONVERSION\conv2.cpp" />
+    <ClCompile Include="..\..\107_CONVERSION\conv3.cpp" />
+    <ClCompile Include="..\..\107_CONVERSION\conv4.cpp" />
+    <ClCompile Include="..\..\107_CONVERSION\conv5.cpp" />
+    <ClCompile Include="..\..\107_CONVERSION\conv6.cpp" />
+    <ClCompile Include="..\..\107_CONVERSION\conv7.cpp" />
+    <ClCompile Include="..\..\107_CONVERSION\conv8.cpp" />
+    <ClCompile Include="..\..\107_CONVERSION\conv9.cpp" />
     <ClCompile Include="..\..\108_TRIVIAL\trivial1.cpp" />
     <ClCompile Include="..\..\108_TRIVIAL\trivial2.cpp" />
+    <ClCompile Include="class1.cpp" />
+    <ClCompile Include="main.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\102_THISCALL\ecourse.hpp" />
     <ClInclude Include="..\..\103_CONST_MEMBER_FUNCTION\Point.h" />
     <ClInclude Include="..\..\105_NAME_MANGLING\square.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="..\..\107_CONVERSION\readme.txt" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
