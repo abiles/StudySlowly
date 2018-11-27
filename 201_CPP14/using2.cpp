@@ -1,10 +1,10 @@
 #include <type_traits>
 #include <set>
 using namespace std;
+//// using의 여러 사용법
 
 // 1. type alias
 using DWORD = int;
-
 
 // 2. template alias
 template<typename T, typename U>
@@ -13,7 +13,7 @@ using Duo = pair<T, U>;
 Duo<int, double> d1; // pair<int, double>
 
 template<typename T> 
-using Ptr = T*;
+using Ptr = T*; //// 이건 좀 신기하네
 
 Ptr<int> p2; // int*
 

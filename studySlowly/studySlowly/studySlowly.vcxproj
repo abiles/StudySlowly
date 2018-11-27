@@ -211,6 +211,33 @@
     <ClCompile Include="..\..\107_CONVERSION\conv9.cpp" />
     <ClCompile Include="..\..\108_TRIVIAL\trivial1.cpp" />
     <ClCompile Include="..\..\108_TRIVIAL\trivial2.cpp" />
+    <ClCompile Include="..\..\201_CPP14\assert1.cpp" />
+    <ClCompile Include="..\..\201_CPP14\assert2.cpp" />
+    <ClCompile Include="..\..\201_CPP14\begin1.cpp" />
+    <ClCompile Include="..\..\201_CPP14\begin2.cpp" />
+    <ClCompile Include="..\..\201_CPP14\cpp11.cpp" />
+    <ClCompile Include="..\..\201_CPP14\ctor1.cpp" />
+    <ClCompile Include="..\..\201_CPP14\ctor2.cpp" />
+    <ClCompile Include="..\..\201_CPP14\ctor3.cpp" />
+    <ClCompile Include="..\..\201_CPP14\delete1.cpp" />
+    <ClCompile Include="..\..\201_CPP14\delete2.cpp" />
+    <ClCompile Include="..\..\201_CPP14\delete3.cpp" />
+    <ClCompile Include="..\..\201_CPP14\enum1.cpp" />
+    <ClCompile Include="..\..\201_CPP14\enum2.cpp" />
+    <ClCompile Include="..\..\201_CPP14\for1.cpp" />
+    <ClCompile Include="..\..\201_CPP14\for2.cpp" />
+    <ClCompile Include="..\..\201_CPP14\literal.cpp" />
+    <ClCompile Include="..\..\201_CPP14\literal1.cpp" />
+    <ClCompile Include="..\..\201_CPP14\literal2.cpp" />
+    <ClCompile Include="..\..\201_CPP14\literal3.cpp" />
+    <ClCompile Include="..\..\201_CPP14\noexcept1.cpp" />
+    <ClCompile Include="..\..\201_CPP14\noexcept2.cpp" />
+    <ClCompile Include="..\..\201_CPP14\override1.cpp" />
+    <ClCompile Include="..\..\201_CPP14\override2.cpp" />
+    <ClCompile Include="..\..\201_CPP14\override3.cpp" />
+    <ClCompile Include="..\..\201_CPP14\raw1.cpp" />
+    <ClCompile Include="..\..\201_CPP14\using1.cpp" />
+    <ClCompile Include="..\..\201_CPP14\using2.cpp" />
     <ClCompile Include="class1.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
@@ -221,6 +248,9 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\..\107_CONVERSION\readme.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\201_CPP14\README" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

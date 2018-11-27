@@ -1,7 +1,7 @@
 #include <iostream>
 #include <list>
 using namespace std;
-
+//// 여기는 내가 알고 있는 내용
 int main()
 {
 	//int x[10] = { 1,2,3,4,5,6,7,8,9,10 };
