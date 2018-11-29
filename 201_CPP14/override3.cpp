@@ -9,12 +9,27 @@ public:
 		cout << "Base foo" << endl;
 	}
 };
+
+/*
+class Base<int*>
+{
+public:
+virtual void foo(const int* a)
+{
+cout << "Base foo" << endl;
+}
+}
+*/
 class Derived : public Base<int*>
 {
 public:
 	// 가상 함수 foo를 재정의해서
 	// "Derived foo" 라고 출력해 보세요.
 	// override 사용하지 말고.
+	virtual void foo ( const int* a )
+	{
+		cout << "Derived foo" << endl;
+	}
 };
 
 int main()

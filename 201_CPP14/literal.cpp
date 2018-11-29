@@ -1,6 +1,16 @@
 #include <iostream>
 using namespace std;
 
+//// literal이 무엇이냐
+/*
+integer literal					11, 013, 0xa
+floating point literal		15.75
+character literal				"A"
+string literal						"hello"
+*/
+
+/
+
 int operator""_k(unsigned long long v)
 {
 	return 1000 * v;
