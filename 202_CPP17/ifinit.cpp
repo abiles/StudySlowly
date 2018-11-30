@@ -16,7 +16,7 @@ int main()
 	}
 
 	// C++17 스타일
-	// if ( init 구문; 조건문 )
+	// if ( init 구문(초기 구문); 조건문 )
 	if (int ret = foo(); ret == 0)
 	{
 		cout << "ret is 0" << endl;

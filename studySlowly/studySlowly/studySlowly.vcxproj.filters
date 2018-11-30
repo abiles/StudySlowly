@@ -37,6 +37,9 @@
     <Filter Include="소스 파일\201_CPP14">
       <UniqueIdentifier>{d403520f-a465-423c-bea2-39f2aa774ad9}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\202_CPP17">
+      <UniqueIdentifier>{c22a177f-4853-4ca8-9279-4924b053480d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\102_THISCALL\this1.cpp">
@@ -321,6 +324,18 @@
     <ClCompile Include="..\..\201_CPP14\using2.cpp">
       <Filter>소스 파일\201_CPP14</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\202_CPP17\binding.cpp">
+      <Filter>소스 파일\202_CPP17</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\202_CPP17\binding2.cpp">
+      <Filter>소스 파일\202_CPP17</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\202_CPP17\ifinit.cpp">
+      <Filter>소스 파일\202_CPP17</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\202_CPP17\staticif.cpp">
+      <Filter>소스 파일\202_CPP17</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\102_THISCALL\ecourse.hpp">
@@ -341,6 +356,9 @@
   <ItemGroup>
     <None Include="..\..\201_CPP14\README">
       <Filter>소스 파일\201_CPP14</Filter>
+    </None>
+    <None Include="..\..\202_CPP17\Readme">
+      <Filter>소스 파일\202_CPP17</Filter>
     </None>
   </ItemGroup>
 </Project>

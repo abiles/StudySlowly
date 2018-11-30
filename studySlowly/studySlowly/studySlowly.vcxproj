@@ -238,6 +238,10 @@
     <ClCompile Include="..\..\201_CPP14\raw1.cpp" />
     <ClCompile Include="..\..\201_CPP14\using1.cpp" />
     <ClCompile Include="..\..\201_CPP14\using2.cpp" />
+    <ClCompile Include="..\..\202_CPP17\binding.cpp" />
+    <ClCompile Include="..\..\202_CPP17\binding2.cpp" />
+    <ClCompile Include="..\..\202_CPP17\ifinit.cpp" />
+    <ClCompile Include="..\..\202_CPP17\staticif.cpp" />
     <ClCompile Include="class1.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
@@ -251,6 +255,7 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\201_CPP14\README" />
+    <None Include="..\..\202_CPP17\Readme" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
