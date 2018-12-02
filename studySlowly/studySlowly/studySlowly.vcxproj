@@ -242,6 +242,27 @@
     <ClCompile Include="..\..\202_CPP17\binding2.cpp" />
     <ClCompile Include="..\..\202_CPP17\ifinit.cpp" />
     <ClCompile Include="..\..\202_CPP17\staticif.cpp" />
+    <ClCompile Include="..\..\206_OBJECT_INIT\init1.cpp" />
+    <ClCompile Include="..\..\206_OBJECT_INIT\init10.cpp" />
+    <ClCompile Include="..\..\206_OBJECT_INIT\init11.cpp" />
+    <ClCompile Include="..\..\206_OBJECT_INIT\init12.cpp" />
+    <ClCompile Include="..\..\206_OBJECT_INIT\init13.cpp" />
+    <ClCompile Include="..\..\206_OBJECT_INIT\init14.cpp" />
+    <ClCompile Include="..\..\206_OBJECT_INIT\init15.cpp" />
+    <ClCompile Include="..\..\206_OBJECT_INIT\init2.cpp" />
+    <ClCompile Include="..\..\206_OBJECT_INIT\init3.cpp" />
+    <ClCompile Include="..\..\206_OBJECT_INIT\init4.cpp" />
+    <ClCompile Include="..\..\206_OBJECT_INIT\init5.cpp" />
+    <ClCompile Include="..\..\206_OBJECT_INIT\init6.cpp" />
+    <ClCompile Include="..\..\206_OBJECT_INIT\init7.cpp" />
+    <ClCompile Include="..\..\206_OBJECT_INIT\init8.cpp" />
+    <ClCompile Include="..\..\206_OBJECT_INIT\init9.cpp" />
+    <ClCompile Include="..\..\207_AUTO_DECLTYPE\arrayName.cpp" />
+    <ClCompile Include="..\..\207_AUTO_DECLTYPE\auto1.cpp" />
+    <ClCompile Include="..\..\207_AUTO_DECLTYPE\auto2.cpp" />
+    <ClCompile Include="..\..\207_AUTO_DECLTYPE\auto3.cpp" />
+    <ClCompile Include="..\..\207_AUTO_DECLTYPE\auto4.cpp" />
+    <ClCompile Include="..\..\207_AUTO_DECLTYPE\auto5.cpp" />
     <ClCompile Include="class1.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
@@ -252,6 +273,8 @@
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\..\107_CONVERSION\readme.txt" />
+    <Text Include="..\..\206_OBJECT_INIT\readme.txt" />
+    <Text Include="..\..\207_AUTO_DECLTYPE\readme.txt" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\201_CPP14\README" />

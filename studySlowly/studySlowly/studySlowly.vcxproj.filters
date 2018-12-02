@@ -40,6 +40,12 @@
     <Filter Include="소스 파일\202_CPP17">
       <UniqueIdentifier>{c22a177f-4853-4ca8-9279-4924b053480d}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\206_OBJECT_INIT">
+      <UniqueIdentifier>{5b005404-6b64-4229-99bb-84670d6f06a2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\207_AUTO_DECLTYPE">
+      <UniqueIdentifier>{2fa3f80e-ec69-4f18-beb8-288e17a39446}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\102_THISCALL\this1.cpp">
@@ -336,6 +342,69 @@
     <ClCompile Include="..\..\202_CPP17\staticif.cpp">
       <Filter>소스 파일\202_CPP17</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\206_OBJECT_INIT\init1.cpp">
+      <Filter>소스 파일\206_OBJECT_INIT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\206_OBJECT_INIT\init2.cpp">
+      <Filter>소스 파일\206_OBJECT_INIT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\206_OBJECT_INIT\init3.cpp">
+      <Filter>소스 파일\206_OBJECT_INIT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\206_OBJECT_INIT\init4.cpp">
+      <Filter>소스 파일\206_OBJECT_INIT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\206_OBJECT_INIT\init5.cpp">
+      <Filter>소스 파일\206_OBJECT_INIT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\206_OBJECT_INIT\init6.cpp">
+      <Filter>소스 파일\206_OBJECT_INIT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\206_OBJECT_INIT\init7.cpp">
+      <Filter>소스 파일\206_OBJECT_INIT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\206_OBJECT_INIT\init8.cpp">
+      <Filter>소스 파일\206_OBJECT_INIT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\206_OBJECT_INIT\init9.cpp">
+      <Filter>소스 파일\206_OBJECT_INIT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\206_OBJECT_INIT\init10.cpp">
+      <Filter>소스 파일\206_OBJECT_INIT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\206_OBJECT_INIT\init11.cpp">
+      <Filter>소스 파일\206_OBJECT_INIT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\206_OBJECT_INIT\init12.cpp">
+      <Filter>소스 파일\206_OBJECT_INIT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\206_OBJECT_INIT\init13.cpp">
+      <Filter>소스 파일\206_OBJECT_INIT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\206_OBJECT_INIT\init14.cpp">
+      <Filter>소스 파일\206_OBJECT_INIT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\206_OBJECT_INIT\init15.cpp">
+      <Filter>소스 파일\206_OBJECT_INIT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\207_AUTO_DECLTYPE\auto1.cpp">
+      <Filter>소스 파일\207_AUTO_DECLTYPE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\207_AUTO_DECLTYPE\auto2.cpp">
+      <Filter>소스 파일\207_AUTO_DECLTYPE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\207_AUTO_DECLTYPE\auto3.cpp">
+      <Filter>소스 파일\207_AUTO_DECLTYPE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\207_AUTO_DECLTYPE\auto4.cpp">
+      <Filter>소스 파일\207_AUTO_DECLTYPE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\207_AUTO_DECLTYPE\auto5.cpp">
+      <Filter>소스 파일\207_AUTO_DECLTYPE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\207_AUTO_DECLTYPE\arrayName.cpp">
+      <Filter>소스 파일\207_AUTO_DECLTYPE</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\102_THISCALL\ecourse.hpp">
@@ -351,6 +420,12 @@
   <ItemGroup>
     <Text Include="..\..\107_CONVERSION\readme.txt">
       <Filter>소스 파일\107_CONVERSION</Filter>
+    </Text>
+    <Text Include="..\..\206_OBJECT_INIT\readme.txt">
+      <Filter>소스 파일\206_OBJECT_INIT</Filter>
+    </Text>
+    <Text Include="..\..\207_AUTO_DECLTYPE\readme.txt">
+      <Filter>소스 파일\207_AUTO_DECLTYPE</Filter>
     </Text>
   </ItemGroup>
   <ItemGroup>

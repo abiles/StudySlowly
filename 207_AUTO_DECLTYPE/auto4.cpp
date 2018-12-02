@@ -16,7 +16,8 @@ int main()
 {
 	auto ret1 = foo(1, 2); // int 
 
-	// 평가되지 표현식(unevaluated expression)
+	// 평가되지 않는 표현식(unevaluated expression)
+	//// 실제로 저 함수를 부르지는 않고 함수의 return 값만 확인함
 	decltype( foo(1, 2) ) ret2 = foo(1,2);  // int&
 
 	// C++14
