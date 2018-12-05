@@ -357,12 +357,6 @@
     <ClCompile Include="..\..\206_OBJECT_INIT\init5.cpp">
       <Filter>소스 파일\206_OBJECT_INIT</Filter>
     </ClCompile>
-    <ClCompile Include="..\..\206_OBJECT_INIT\init6.cpp">
-      <Filter>소스 파일\206_OBJECT_INIT</Filter>
-    </ClCompile>
-    <ClCompile Include="..\..\206_OBJECT_INIT\init7.cpp">
-      <Filter>소스 파일\206_OBJECT_INIT</Filter>
-    </ClCompile>
     <ClCompile Include="..\..\206_OBJECT_INIT\init8.cpp">
       <Filter>소스 파일\206_OBJECT_INIT</Filter>
     </ClCompile>
@@ -404,6 +398,12 @@
     </ClCompile>
     <ClCompile Include="..\..\207_AUTO_DECLTYPE\arrayName.cpp">
       <Filter>소스 파일\207_AUTO_DECLTYPE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\206_OBJECT_INIT\init6.cpp">
+      <Filter>소스 파일\206_OBJECT_INIT</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\206_OBJECT_INIT\init7.cpp">
+      <Filter>소스 파일\206_OBJECT_INIT</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>

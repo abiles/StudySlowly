@@ -14,7 +14,7 @@ public:
 	int x;
 	int y;
 
-	//Point() {}
+	//Point() {}			//// 그냥 이렇게만 해놓으면 value 초기화 할 때 0으로 초기화 안됨, 쓰레기값나옴
 	Point() = default;
 };
 int main()

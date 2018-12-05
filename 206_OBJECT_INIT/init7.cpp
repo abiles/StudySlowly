@@ -19,8 +19,8 @@ int main()
 	int n4 = { 0 }; 
 
 	//---------------------------
-	int n5;		// defalut initialization. 쓰레기값	
-	int n6{};	// value initialization.   0으로 초기화
+	int n5;		// defalut initialization. 쓰레기값			//// 초기화 구민이 없이 초기화
+	int n6{};	// value initialization.   0으로 초기화	//// 빈 초기화 구문을 가지고 초기화 하는것, 사용자 정의 타입이면 0 아닌게 들어올 수 있다
 
 	cout << n5 << endl; // 쓰레기값
 	cout << n6 << endl; // 0

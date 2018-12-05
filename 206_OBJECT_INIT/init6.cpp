@@ -18,6 +18,7 @@ void foo(Point p) {}
 
 int main()
 {
+
 	Point p1{ 1,1 };
 //	Point p2 = { 1,1 };
 

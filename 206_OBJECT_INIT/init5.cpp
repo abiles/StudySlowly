@@ -10,10 +10,10 @@ class Point
 	int x, y;
 public:
 	// explicit : 변환 생성자로 사용될수 없다.
-	//		      copy initialization 될수 없다.
-	explicit Point()    		 : x(0), y(0) {}
-	explicit Point(int a)        : x(a), y(0) {}
-	explicit Point(int a, int b) : x(a), y(b) {}
+	// copy initialization 될 수 없다.
+	explicit Point()    					 : x(0), y(0) {}
+	explicit Point(int a)				 : x(a), y(0) {}
+	explicit Point(int a, int b)	 : x(a), y(b) {}
 };
 
 int main()
