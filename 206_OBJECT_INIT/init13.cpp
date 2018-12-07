@@ -15,7 +15,7 @@ template<typename T, typename Ax = allocator<T>> class vector
 	T* buff;
 public:
 	vector(size_t sz, T v = T() ) {} // 1
-	vector(initializer_list<T> s) {} // 2
+	vector(initializer_list<T> s) {} // 2, 받을 수 있는 인자 개수에 자유가 주어짐
 };
 */
 

@@ -8,6 +8,8 @@
 #include <iostream>
 #include <initializer_list>
 using namespace std;
+//// 일반 list와의 차이점은 일반 list는 연속적인 메모리에 놓여있지 않다
+//// copy 초기화, direct초기화 가능
 
 void foo( initializer_list<int> e )
 {
