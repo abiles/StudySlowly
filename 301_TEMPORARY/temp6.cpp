@@ -31,8 +31,8 @@ int main()
 {
 	//Point ret = foo();
 
-	foo().x = 10; // error
+	foo().x = 10; // error, 임시객체이기 때문에 lvalue가 될 수 없다.
 	goo().x = 20; // ok
-	cout << p.x << endl;
+	cout << p.x << endl;	//// 20이요~
 }
 

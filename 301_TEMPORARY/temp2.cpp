@@ -19,10 +19,17 @@ struct Point
 
 int main()
 {
-//	Point p1(1, 2);	//  named object.
-//	Point(1, 2);	// unamed object. temporary.
+	//// Point p1(1,1)
+	//// 이름 p1, 파괴 : 함수 {}을 벗어날 때 	
+	////  named object.
 
-	Point(1, 2), std::cout << "X" << std::endl;
+	////	Point(1, 1);
+	//// 이름  없음, 파괴 : 문장의 ;를 만났을 때(문장의 끝)
+	//// unamed object. temporary.
+
+	Point(1, 1), std::cout << "X" << std::endl;
+	//// 이것의 결과는?
+	//// Point(), X, ~Point()
 
 	std::cout << "----------" << std::endl;
 }

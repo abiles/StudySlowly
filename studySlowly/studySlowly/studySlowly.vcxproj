@@ -263,6 +263,16 @@
     <ClCompile Include="..\..\207_AUTO_DECLTYPE\auto3.cpp" />
     <ClCompile Include="..\..\207_AUTO_DECLTYPE\auto4.cpp" />
     <ClCompile Include="..\..\207_AUTO_DECLTYPE\auto5.cpp" />
+    <ClCompile Include="..\..\301_TEMPORARY\temp1.cpp" />
+    <ClCompile Include="..\..\301_TEMPORARY\temp2.cpp" />
+    <ClCompile Include="..\..\301_TEMPORARY\temp3.cpp" />
+    <ClCompile Include="..\..\301_TEMPORARY\temp4.cpp" />
+    <ClCompile Include="..\..\301_TEMPORARY\temp5.cpp" />
+    <ClCompile Include="..\..\301_TEMPORARY\temp6.cpp" />
+    <ClCompile Include="..\..\301_TEMPORARY\temp7.cpp" />
+    <ClCompile Include="..\..\301_TEMPORARY\temp8.cpp" />
+    <ClCompile Include="..\..\301_TEMPORARY\temp9.cpp" />
+    <ClCompile Include="..\..\301_TEMPORARY\temp_5.cpp" />
     <ClCompile Include="class1.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
@@ -275,6 +285,8 @@
     <Text Include="..\..\107_CONVERSION\readme.txt" />
     <Text Include="..\..\206_OBJECT_INIT\readme.txt" />
     <Text Include="..\..\207_AUTO_DECLTYPE\readme.txt" />
+    <Text Include="..\..\301_TEMPORARY\ecourse.log" />
+    <Text Include="..\..\301_TEMPORARY\readme.txt" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\201_CPP14\README" />

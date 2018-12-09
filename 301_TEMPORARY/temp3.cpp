@@ -19,7 +19,7 @@ int main()
 {
 	Point p1;	// 임시객체 아님. 이름있는 객체
 
-	// 핵심 1. 임시객체는 등호(=)의 왼쪽에 올수 없다.
+	// 핵심 1. 임시객체는 등호(=)의 왼쪽에 올수 없다. (lvalue 불가)
 	p1.x = 10;		// ok
 	//Point().x = 10;	// error
 
@@ -28,16 +28,20 @@ int main()
 	Point* pp2 = &Point();	// error
 
 	// 핵심 3. non-const reference 는 임시객체를 참조할 수 없다.
-	//         const     reference 는 임시객체를 참조할 수 있다.
+	//             const     reference	  는 임시객체를 참조할 수 있다.
 	Point& r1 = p1;			// ok
-	Point& r2 = Point();	// error
+	Point& r2 = Point();	// error, 문장의 끝에서 임시객체가 파괴될 것이기 때문에, 마이크로 소프트 컴파일러에서는 가능(확장문법)
 
-	const Point& r3 = p1;		// ok
-	const Point& r4 = Point();	// ok
+	const Point& r3 = p1;			// ok
+	const Point& r4 = Point();	// ok 
+	//// 이건 왜 되는걸까? 이 때는 임시객체의 수명이 r4의 수명과 동일하게 된다. 이름이 생긴거라고 볼 수 있기 때문에
+	//// 이걸 만든 이유는 뒷강의에서 알 수 있다.
 
-	r4.x = 10; // error
+	r4.x = 10; // error, 상수성이 있다.
 
 	// C++11 : rvalue reference는 상수성 없이 rvalue를 가리킬수있다.
+	//// 이걸 하려고 &&를 만든건가?
+	//// 뒷 강의를 참조하자.
 	Point&& r5 = p1; // error, rvalue reference 는 rvalue만 가리킬수 있다.
 	Point&& r6 = Point();
 
