@@ -13,7 +13,7 @@ template<typename T> void f4(T&& a) {}
 
 // int&  : int 형의 lvalue 전달 가능.
 // int&& : int 형의 rvalue 전달 가능.
-// T&    : 모든 타입의 lvalue 전달 가능.(함수 생성)
+// T&    : 모든 타입의 lvalue 전달 가능.(함수 생성), f3의 예시
 
 // T&&   : 모든 타입의 lvalue 와 rvalue 모두 전달 가능.(함수 생성)
 //		   "universal reference"  => "forwarding reference"

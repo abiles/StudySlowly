@@ -49,6 +49,9 @@
     <Filter Include="소스 파일\301_TEMPORARY">
       <UniqueIdentifier>{382e35a6-02fb-453e-a784-4ba7fa91b503}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\302_RVALUE_REFERENCE">
+      <UniqueIdentifier>{cc9e00d9-20ca-4cdd-be6a-599fd1d3518e}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\102_THISCALL\this1.cpp">
@@ -438,6 +441,36 @@
     <ClCompile Include="..\..\301_TEMPORARY\temp9.cpp">
       <Filter>소스 파일\301_TEMPORARY</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\302_RVALUE_REFERENCE\ref1.cpp">
+      <Filter>소스 파일\302_RVALUE_REFERENCE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\302_RVALUE_REFERENCE\ref1_2.cpp">
+      <Filter>소스 파일\302_RVALUE_REFERENCE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\302_RVALUE_REFERENCE\ref1_3.cpp">
+      <Filter>소스 파일\302_RVALUE_REFERENCE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\302_RVALUE_REFERENCE\ref2.cpp">
+      <Filter>소스 파일\302_RVALUE_REFERENCE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\302_RVALUE_REFERENCE\ref3.cpp">
+      <Filter>소스 파일\302_RVALUE_REFERENCE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\302_RVALUE_REFERENCE\ref4.cpp">
+      <Filter>소스 파일\302_RVALUE_REFERENCE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\302_RVALUE_REFERENCE\ref5.cpp">
+      <Filter>소스 파일\302_RVALUE_REFERENCE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\302_RVALUE_REFERENCE\ref6.cpp">
+      <Filter>소스 파일\302_RVALUE_REFERENCE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\302_RVALUE_REFERENCE\ref7.cpp">
+      <Filter>소스 파일\302_RVALUE_REFERENCE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\302_RVALUE_REFERENCE\ref8.cpp">
+      <Filter>소스 파일\302_RVALUE_REFERENCE</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\102_THISCALL\ecourse.hpp">
@@ -465,6 +498,9 @@
     </Text>
     <Text Include="..\..\301_TEMPORARY\readme.txt">
       <Filter>소스 파일\301_TEMPORARY</Filter>
+    </Text>
+    <Text Include="..\..\302_RVALUE_REFERENCE\readme.txt">
+      <Filter>소스 파일\302_RVALUE_REFERENCE</Filter>
     </Text>
   </ItemGroup>
   <ItemGroup>
