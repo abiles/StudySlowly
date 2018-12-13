@@ -52,6 +52,9 @@
     <Filter Include="소스 파일\302_RVALUE_REFERENCE">
       <UniqueIdentifier>{cc9e00d9-20ca-4cdd-be6a-599fd1d3518e}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\303_MOVE">
+      <UniqueIdentifier>{9960b95a-afe0-4d01-9aee-d1c3c1d1b976}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\102_THISCALL\this1.cpp">
@@ -471,6 +474,51 @@
     <ClCompile Include="..\..\302_RVALUE_REFERENCE\ref8.cpp">
       <Filter>소스 파일\302_RVALUE_REFERENCE</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\303_MOVE\copy.cpp">
+      <Filter>소스 파일\303_MOVE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\303_MOVE\move1.cpp">
+      <Filter>소스 파일\303_MOVE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\303_MOVE\move2.cpp">
+      <Filter>소스 파일\303_MOVE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\303_MOVE\move3.cpp">
+      <Filter>소스 파일\303_MOVE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\303_MOVE\move4.cpp">
+      <Filter>소스 파일\303_MOVE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\303_MOVE\move5.cpp">
+      <Filter>소스 파일\303_MOVE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\303_MOVE\move6.cpp">
+      <Filter>소스 파일\303_MOVE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\303_MOVE\move7.cpp">
+      <Filter>소스 파일\303_MOVE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\303_MOVE\move8.cpp">
+      <Filter>소스 파일\303_MOVE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\303_MOVE\move9.cpp">
+      <Filter>소스 파일\303_MOVE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\303_MOVE\move10.cpp">
+      <Filter>소스 파일\303_MOVE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\303_MOVE\move11.cpp">
+      <Filter>소스 파일\303_MOVE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\303_MOVE\move12.cpp">
+      <Filter>소스 파일\303_MOVE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\303_MOVE\move13.cpp">
+      <Filter>소스 파일\303_MOVE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\303_MOVE\move14.cpp">
+      <Filter>소스 파일\303_MOVE</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\102_THISCALL\ecourse.hpp">
@@ -481,6 +529,9 @@
     </ClInclude>
     <ClInclude Include="..\..\105_NAME_MANGLING\square.h">
       <Filter>소스 파일\105_NAME_MANGLING</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\303_MOVE\Test.h">
+      <Filter>소스 파일\303_MOVE</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -501,6 +552,9 @@
     </Text>
     <Text Include="..\..\302_RVALUE_REFERENCE\readme.txt">
       <Filter>소스 파일\302_RVALUE_REFERENCE</Filter>
+    </Text>
+    <Text Include="..\..\303_MOVE\readme.txt">
+      <Filter>소스 파일\303_MOVE</Filter>
     </Text>
   </ItemGroup>
   <ItemGroup>

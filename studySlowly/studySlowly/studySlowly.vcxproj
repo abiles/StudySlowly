@@ -283,6 +283,21 @@
     <ClCompile Include="..\..\302_RVALUE_REFERENCE\ref6.cpp" />
     <ClCompile Include="..\..\302_RVALUE_REFERENCE\ref7.cpp" />
     <ClCompile Include="..\..\302_RVALUE_REFERENCE\ref8.cpp" />
+    <ClCompile Include="..\..\303_MOVE\copy.cpp" />
+    <ClCompile Include="..\..\303_MOVE\move1.cpp" />
+    <ClCompile Include="..\..\303_MOVE\move10.cpp" />
+    <ClCompile Include="..\..\303_MOVE\move11.cpp" />
+    <ClCompile Include="..\..\303_MOVE\move12.cpp" />
+    <ClCompile Include="..\..\303_MOVE\move13.cpp" />
+    <ClCompile Include="..\..\303_MOVE\move14.cpp" />
+    <ClCompile Include="..\..\303_MOVE\move2.cpp" />
+    <ClCompile Include="..\..\303_MOVE\move3.cpp" />
+    <ClCompile Include="..\..\303_MOVE\move4.cpp" />
+    <ClCompile Include="..\..\303_MOVE\move5.cpp" />
+    <ClCompile Include="..\..\303_MOVE\move6.cpp" />
+    <ClCompile Include="..\..\303_MOVE\move7.cpp" />
+    <ClCompile Include="..\..\303_MOVE\move8.cpp" />
+    <ClCompile Include="..\..\303_MOVE\move9.cpp" />
     <ClCompile Include="class1.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
@@ -290,6 +305,7 @@
     <ClInclude Include="..\..\102_THISCALL\ecourse.hpp" />
     <ClInclude Include="..\..\103_CONST_MEMBER_FUNCTION\Point.h" />
     <ClInclude Include="..\..\105_NAME_MANGLING\square.h" />
+    <ClInclude Include="..\..\303_MOVE\Test.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\..\107_CONVERSION\readme.txt" />
@@ -298,6 +314,7 @@
     <Text Include="..\..\301_TEMPORARY\ecourse.log" />
     <Text Include="..\..\301_TEMPORARY\readme.txt" />
     <Text Include="..\..\302_RVALUE_REFERENCE\readme.txt" />
+    <Text Include="..\..\303_MOVE\readme.txt" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\201_CPP14\README" />

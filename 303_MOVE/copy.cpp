@@ -35,5 +35,5 @@ int main()
 	Point p1(1, 1);	// 생성자 호출
 	Point p2(p1);	// Point( Point )  복사 생성자.
 
-	Point p3( foo() ); //// 이런경우도 있으니까 rvalue도 받을 수 있어야 한다.
+	Point p3( foo() ); //// 이런경우도 있으니까 rvalue도 받을 수 있어야 한다. 
 }

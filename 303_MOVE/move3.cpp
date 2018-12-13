@@ -32,6 +32,6 @@ int main()
 {
 	Test t1;
 	Test t2 = t1;		// 복사 생성자
-	//Test t3 = Test();	// (move 없으면) 복사 생성자.  //move 생성자
+	//Test t3 = Test();	// (move 없으면) 복사 생성자.  //move 생성자, 이런 코드는 컴파일러가 바로 t3의 생성자를 부르도록 최적화 해버리는 경우가 있다
 	Test t4 = foo();
 }
