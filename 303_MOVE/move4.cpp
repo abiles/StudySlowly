@@ -24,7 +24,7 @@ int main()
 	Test t3 = Test();	// Move
 	Test t4 = static_cast<Test&&>(t1);	// Move
 						// 복사가 아닌 move 생성자를 호출해 달라.
-	Test t5 = move(t2); // move가 내부적으로 위처럼 캐스팅한다.
+	Test t5 = move(t2); // move가 내부적으로 위처럼 캐스팅한다. 아하! 캐스팅이구나
 }
 
 

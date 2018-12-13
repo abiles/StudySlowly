@@ -32,6 +32,6 @@ int main()
 {
 	Test t1;
 	Test t2 = t1;		// 복사 생성자
-	//Test t3 = Test();	// 복사 생성자.  //move 생성자
+	//Test t3 = Test();	// (move 없으면) 복사 생성자.  //move 생성자
 	Test t4 = foo();
 }

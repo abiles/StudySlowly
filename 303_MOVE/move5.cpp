@@ -16,17 +16,17 @@ public:
 	Test(const Test& t) { cout << "Copy" << endl; }
 	Test(Test&& t)      { cout << "Move" << endl; }
 
-	Test& operator=(const Test& t) { return *this; } // 복사 대입연산자
-	Test& operator=(Test&& t)      { return *this; } // move 대입연산자
+	Test& operator=(const Test& t) { return *this; } // 복사 대입연산자, 구현부는 그냥 써놓은거임
+	Test& operator=(Test&& t)			{ return *this; } // move 대입연산자, 구현부는 그냥 써놓은거임
 };
 
 int main()
 {
 	Test t1;
-	Test t2 = t1;	// 초기화. 복사 생성자
-	t2 = t1;		// 대입.   대입 연산자
+	Test t2 = t1;	// 초기화. 복사 생성자!!
+	t2 = t1;			// 대입.    대입 연산자!!
 
-	t2 = move(t1);
+	t2 = move(t1); //// move로 대입
 
 
 }

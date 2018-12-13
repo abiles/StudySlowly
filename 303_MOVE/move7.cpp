@@ -16,7 +16,8 @@ public:
 	Test() {}
 	~Test() {}
 	Test(const Test& t) { cout << "Copy" << endl; }
-	Test(Test&& t) noexcept     { cout << "Move" << endl; }
+	Test(Test&& t) noexcept     { cout << "Move" << endl; } //// noexcpet 키워드가 있어야 stl에서 Move를 사용할 수 있게 된다
+	//// 왜 붙어야 할까요?
 
 	Test& operator=(const Test& t)
 	{

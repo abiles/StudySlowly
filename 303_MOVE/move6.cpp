@@ -48,7 +48,10 @@ int main()
 {
 	Test t1, t2;
 	//Swap(t1, t2);
-	swap(t1, t2);
+	swap(t1, t2); //// 이미 만들어진 move를 이용한 swap
+	//// 만약에 유저가 move 생성자를 안만들었다?
+	//// 그럼 const Test&를 사용하게 돼서 복사를 이용한 swap이 된다. (move는 사실 static_cast<T&&> 하는 것이기 때문에)
+	//// 그래서 아무튼 성능 좋게 하려면 move 생성자랑, move 대입 연산자는 만들어 놔야겠지?
 
 }
 
