@@ -298,6 +298,20 @@
     <ClCompile Include="..\..\303_MOVE\move7.cpp" />
     <ClCompile Include="..\..\303_MOVE\move8.cpp" />
     <ClCompile Include="..\..\303_MOVE\move9.cpp" />
+    <ClCompile Include="..\..\304_PERFECT_FORWARDING\forwarding1.cpp" />
+    <ClCompile Include="..\..\304_PERFECT_FORWARDING\forwarding10.cpp" />
+    <ClCompile Include="..\..\304_PERFECT_FORWARDING\forwarding11.cpp" />
+    <ClCompile Include="..\..\304_PERFECT_FORWARDING\forwarding2.cpp" />
+    <ClCompile Include="..\..\304_PERFECT_FORWARDING\forwarding3.cpp" />
+    <ClCompile Include="..\..\304_PERFECT_FORWARDING\forwarding4.cpp" />
+    <ClCompile Include="..\..\304_PERFECT_FORWARDING\forwarding5.cpp" />
+    <ClCompile Include="..\..\304_PERFECT_FORWARDING\forwarding6.cpp" />
+    <ClCompile Include="..\..\304_PERFECT_FORWARDING\forwarding7.cpp" />
+    <ClCompile Include="..\..\304_PERFECT_FORWARDING\forwarding8.cpp" />
+    <ClCompile Include="..\..\304_PERFECT_FORWARDING\forwarding9.cpp" />
+    <ClCompile Include="..\..\305_VALVUE_CATEGORY\valueCategories.cpp" />
+    <ClCompile Include="..\..\305_VALVUE_CATEGORY\valueCategories2.cpp" />
+    <ClCompile Include="..\..\305_VALVUE_CATEGORY\valueCategories3.cpp" />
     <ClCompile Include="class1.cpp" />
     <ClCompile Include="main.cpp" />
   </ItemGroup>
@@ -315,10 +329,15 @@
     <Text Include="..\..\301_TEMPORARY\readme.txt" />
     <Text Include="..\..\302_RVALUE_REFERENCE\readme.txt" />
     <Text Include="..\..\303_MOVE\readme.txt" />
+    <Text Include="..\..\304_PERFECT_FORWARDING\readme.txt" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\201_CPP14\README" />
     <None Include="..\..\202_CPP17\Readme" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\303_MOVE\Move_Exception.PNG" />
+    <Image Include="..\..\305_VALVUE_CATEGORY\valueCategories.PNG" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

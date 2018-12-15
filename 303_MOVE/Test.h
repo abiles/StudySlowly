@@ -19,6 +19,8 @@ public:
 	}
 	Test(Test&& t) noexcept
 	{
+		//// 예외 없이 만든 다음에 noexcept 키워드를 써줘야 한다
+		//// 보통 포인터 옮기는 작업으로 하기 때문에 noexcept임
 		std::cout << "Move" << std::endl;
 	}
 

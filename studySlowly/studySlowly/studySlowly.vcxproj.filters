@@ -55,6 +55,12 @@
     <Filter Include="소스 파일\303_MOVE">
       <UniqueIdentifier>{9960b95a-afe0-4d01-9aee-d1c3c1d1b976}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\305_VALVUE_CATEGORY">
+      <UniqueIdentifier>{d70aa479-58e4-4d1a-bf2e-466f2d9e2766}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\304_PERFECT_FORWARDING">
+      <UniqueIdentifier>{25e66153-8f9c-481f-b628-ad292f842ca4}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\102_THISCALL\this1.cpp">
@@ -519,6 +525,48 @@
     <ClCompile Include="..\..\303_MOVE\move14.cpp">
       <Filter>소스 파일\303_MOVE</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\305_VALVUE_CATEGORY\valueCategories.cpp">
+      <Filter>소스 파일\305_VALVUE_CATEGORY</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\305_VALVUE_CATEGORY\valueCategories2.cpp">
+      <Filter>소스 파일\305_VALVUE_CATEGORY</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\305_VALVUE_CATEGORY\valueCategories3.cpp">
+      <Filter>소스 파일\305_VALVUE_CATEGORY</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\304_PERFECT_FORWARDING\forwarding1.cpp">
+      <Filter>소스 파일\304_PERFECT_FORWARDING</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\304_PERFECT_FORWARDING\forwarding2.cpp">
+      <Filter>소스 파일\304_PERFECT_FORWARDING</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\304_PERFECT_FORWARDING\forwarding3.cpp">
+      <Filter>소스 파일\304_PERFECT_FORWARDING</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\304_PERFECT_FORWARDING\forwarding4.cpp">
+      <Filter>소스 파일\304_PERFECT_FORWARDING</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\304_PERFECT_FORWARDING\forwarding5.cpp">
+      <Filter>소스 파일\304_PERFECT_FORWARDING</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\304_PERFECT_FORWARDING\forwarding6.cpp">
+      <Filter>소스 파일\304_PERFECT_FORWARDING</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\304_PERFECT_FORWARDING\forwarding7.cpp">
+      <Filter>소스 파일\304_PERFECT_FORWARDING</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\304_PERFECT_FORWARDING\forwarding8.cpp">
+      <Filter>소스 파일\304_PERFECT_FORWARDING</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\304_PERFECT_FORWARDING\forwarding9.cpp">
+      <Filter>소스 파일\304_PERFECT_FORWARDING</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\304_PERFECT_FORWARDING\forwarding10.cpp">
+      <Filter>소스 파일\304_PERFECT_FORWARDING</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\304_PERFECT_FORWARDING\forwarding11.cpp">
+      <Filter>소스 파일\304_PERFECT_FORWARDING</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\102_THISCALL\ecourse.hpp">
@@ -556,6 +604,9 @@
     <Text Include="..\..\303_MOVE\readme.txt">
       <Filter>소스 파일\303_MOVE</Filter>
     </Text>
+    <Text Include="..\..\304_PERFECT_FORWARDING\readme.txt">
+      <Filter>소스 파일\304_PERFECT_FORWARDING</Filter>
+    </Text>
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\201_CPP14\README">
@@ -564,5 +615,13 @@
     <None Include="..\..\202_CPP17\Readme">
       <Filter>소스 파일\202_CPP17</Filter>
     </None>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="..\..\303_MOVE\Move_Exception.PNG">
+      <Filter>소스 파일\303_MOVE</Filter>
+    </Image>
+    <Image Include="..\..\305_VALVUE_CATEGORY\valueCategories.PNG">
+      <Filter>소스 파일\305_VALVUE_CATEGORY</Filter>
+    </Image>
   </ItemGroup>
 </Project>

@@ -13,6 +13,7 @@ using namespace std;
 
 int main()
 {
+	//// vector에서 buffer 늘려줄 때 아래 방식으로 한다
 	vector<Test> v(2);
 	v.resize(4);
 	cout << "--" << endl;
@@ -22,6 +23,7 @@ int main()
 /*
 int main()
 {
+//// 처음에도 바로 new로 할당안하는 것은 default 생성자가 없을 수 있기 때문에
 	Test* p1 = static_cast<Test*>(
 		operator new(sizeof(Test) * 2));
 
@@ -39,6 +41,7 @@ int main()
 
 	for (int i = 2; i < 4; i++)
 		new(&p2[i]) Test;
+
 	//---------------
 	// 최초 버퍼 파괴
 	for (int i = 1; i >= 0; i--)

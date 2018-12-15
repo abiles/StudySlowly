@@ -30,14 +30,21 @@ public:
 	}
 
 	// move 생성자 : 모든 멤버를 move 로 옮기도록 작성한다.
-	Buffer(Buffer&& b) noexcept
+	//// 요소들을 move로 옮기는 걸 잊지 말자
+	//// 표준형 타입은 move 써도 그만 안써도 그만
+	Buffer(Buffer&& b) noexcept //// string도, Test도 noexcept인 것을 확인하고
 		: sz(move(b.sz)), tag(move(b.tag)), test(move(b.test))
 	{
 		buf = move(b.buf);
 		b.buf = 0; // 자원 포기.
 	}
 	
+	//// 숙제
 	// 대입연산자.
+	Buffer operator=( Buffer& bf )
+	{
+
+	}
 	// move 대입연산자.
 };
 

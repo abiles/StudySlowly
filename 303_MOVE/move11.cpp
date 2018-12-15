@@ -11,8 +11,8 @@ using namespace std;
 
 // T&  : lvalue 만 받을수 있다.
 // T&& : lvalue 와 rvalue를 모두 받을수 있다. 
-// 인자로 lvalue 전달 : T => Test&  T&& : Test& && => Test&
-//        rvalue 전달 : T => Test   T&& : Test &&  => Test&&
+// 인자로	lvalue 전달 : T => 'Test&'	T&& : Test& &&	=> Test&		//// 몰랐네
+//				rvalue 전달 : T => 'Test'		T&& : Test &&		=> Test&&
 template<typename T> 
 typename remove_reference<T>::type &&
 xmove(T&& obj)
@@ -26,8 +26,8 @@ xmove(T&& obj)
 int main()
 {
 	Test t1;
-	Test t2 = t1;		 // copy
-	Test t3 = xmove(t1); // move
+	Test t2 = t1;				// copy
+	Test t3 = xmove(t1);	 // move, //// remove_reference<T>::type 이거 없으면 여기 copy로 나옴 왜일까?
 	Test t4 = xmove( Test() ); // move
 }
 
