@@ -16,18 +16,21 @@ template<typename F> void chronometry(F f, int& arg)
 {
 	f(arg);
 }
+
 template<typename F> void chronometry(F f, int&& arg)
 {
 	// int&& arg = 10
-	//f(arg);
+	//// arg 자체는 lvalue이다. (이름이 있으니까)
+	//f(arg); //// <--- hoo는 rvalue만 받을 수 있기 때문에 캐스팅이 없으면 오류남
+	
 	// 해결책 : lvalue인 arg를 rvalue로 다시 캐스팅한다
-	f(static_cast<int&&>(arg));
+	f(static_cast<int&&>(arg)); //// 이런건 move로 대체하려나?, 안하려나?
 }
 
 int main()
 {
 	//hoo(10); // ok..
-	chronometry(&hoo, 10); // error
+	chronometry(&hoo, 10); // error //// why?
 	
 	int&& arg = 10; // 10 은 rvalue,
 					// arg는 lvalue 이다.
