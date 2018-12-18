@@ -2,4 +2,29 @@
 C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of ctor1.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\106_CONSTRUCTOR\ctor1.cpp, ..\..\201_CPP14\ctor1.cpp.
 C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of ctor2.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\106_CONSTRUCTOR\ctor2.cpp, ..\..\201_CPP14\ctor2.cpp.
 C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V140\Microsoft.CppBuild.targets(936,5): warning MSB8027: Two or more files with the name of ctor3.cpp will produce outputs to the same location. This can lead to an incorrect build result.  The files involved are ..\..\106_CONSTRUCTOR\ctor3.cpp, ..\..\201_CPP14\ctor3.cpp.
-  override3.cpp
+  forwarding15.cpp
+c:\users\user\desktop\slowly\studyslowly\studyslowly\forwarding15.cpp(24): error C2059: 구문 오류: ')'
+c:\users\user\desktop\slowly\studyslowly\studyslowly\forwarding15.cpp(24): error C2143: 구문 오류: ';'이(가) ':' 앞에 없습니다.
+c:\users\user\desktop\slowly\studyslowly\studyslowly\forwarding15.cpp(24): error C2146: 구문 오류: '>'이(가) 'r' 식별자 앞에 없습니다.
+  c:\users\user\desktop\slowly\studyslowly\studyslowly\forwarding15.cpp(24): note: 컴파일 중인 클래스 템플릿 인스턴스화 'xreference_wrapper<T>'에 대한 참조를 확인하십시오.
+c:\users\user\desktop\slowly\studyslowly\studyslowly\forwarding15.cpp(24): error C2143: 구문 오류: ';'이(가) '}' 앞에 없습니다.
+c:\users\user\desktop\slowly\studyslowly\studyslowly\forwarding15.cpp(24): error C2143: 구문 오류: '>'이(가) ';' 앞에 없습니다.
+c:\users\user\desktop\slowly\studyslowly\studyslowly\forwarding15.cpp(24): error C2208: 'xreference_wrapper<T&>': 이 형식을 사용하여 정의된 멤버가 없습니다.
+c:\users\user\desktop\slowly\studyslowly\studyslowly\forwarding15.cpp(24): error C2059: 구문 오류: ':'
+c:\users\user\desktop\slowly\studyslowly\studyslowly\forwarding15.cpp(24): error C2065: 'r': 선언되지 않은 식별자입니다.
+c:\users\user\desktop\slowly\studyslowly\studyslowly\forwarding15.cpp(24): error C4430: 형식 지정자가 없습니다. int로 가정합니다. 참고: C++에서는 기본 int를 지원하지 않습니다.
+c:\users\user\desktop\slowly\studyslowly\studyslowly\forwarding15.cpp(24): error C2448: 'ptr': 함수 스타일 이니셜라이저가 함수 정의처럼 나타납니다.
+c:\users\user\desktop\slowly\studyslowly\studyslowly\forwarding15.cpp(26): error C2833: 'operator T'은(는) 인식할 수 있는 연산자 또는 형식이 아닙니다.
+c:\users\user\desktop\slowly\studyslowly\studyslowly\forwarding15.cpp(26): error C2059: 구문 오류: 'newline'
+c:\users\user\desktop\slowly\studyslowly\studyslowly\forwarding15.cpp(26): error C2143: 구문 오류: ';'이(가) '{' 앞에 없습니다.
+c:\users\user\desktop\slowly\studyslowly\studyslowly\forwarding15.cpp(26): error C2447: '{': 함수 헤더가 없습니다. 이전 스타일의 형식 목록입니까?
+c:\users\user\desktop\slowly\studyslowly\studyslowly\forwarding15.cpp(27): error C2059: 구문 오류: '}'
+c:\users\user\desktop\slowly\studyslowly\studyslowly\forwarding15.cpp(27): error C2143: 구문 오류: ';'이(가) '}' 앞에 없습니다.
+c:\users\user\desktop\slowly\studyslowly\studyslowly\forwarding15.cpp(24): error C2208: 'xreference_wrapper<T &>': 이 형식을 사용하여 정의된 멤버가 없습니다.
+          with
+          [
+              T=int
+          ]
+c:\users\user\desktop\slowly\studyslowly\studyslowly\forwarding15.cpp(35): error C2440: '초기화 중': 'int'에서 'xreference_wrapper<int>'(으)로 변환할 수 없습니다.
+  c:\users\user\desktop\slowly\studyslowly\studyslowly\forwarding15.cpp(35): note: 소스 형식을 가져올 수 있는 생성자가 없거나 생성자 오버로드 확인이 모호합니다.
+c:\users\user\desktop\slowly\studyslowly\studyslowly\forwarding15.cpp(37): error C2440: '초기화 중': 'xreference_wrapper<int>'에서 'int &'(으)로 변환할 수 없습니다.

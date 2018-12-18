@@ -300,6 +300,7 @@
     <ClCompile Include="..\..\303_MOVE\move9.cpp" />
     <ClCompile Include="..\..\304_PERFECT_FORWARDING\forwarding1.cpp" />
     <ClCompile Include="..\..\304_PERFECT_FORWARDING\forwarding10.cpp" />
+    <ClCompile Include="..\..\304_PERFECT_FORWARDING\forwarding10_1.cpp" />
     <ClCompile Include="..\..\304_PERFECT_FORWARDING\forwarding11.cpp" />
     <ClCompile Include="..\..\304_PERFECT_FORWARDING\forwarding2.cpp" />
     <ClCompile Include="..\..\304_PERFECT_FORWARDING\forwarding3.cpp" />
@@ -314,6 +315,10 @@
     <ClCompile Include="..\..\305_VALVUE_CATEGORY\valueCategories3.cpp" />
     <ClCompile Include="class1.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="forwarding12.cpp" />
+    <ClCompile Include="forwarding13.cpp" />
+    <ClCompile Include="forwarding14.cpp" />
+    <ClCompile Include="forwarding15.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\102_THISCALL\ecourse.hpp" />
@@ -337,6 +342,8 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\..\303_MOVE\Move_Exception.PNG" />
+    <Image Include="..\..\304_PERFECT_FORWARDING\forwarding15.PNG" />
+    <Image Include="..\..\304_PERFECT_FORWARDING\make_shared_메모리할당.PNG" />
     <Image Include="..\..\305_VALVUE_CATEGORY\valueCategories.PNG" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

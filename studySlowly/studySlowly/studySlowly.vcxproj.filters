@@ -567,6 +567,21 @@
     <ClCompile Include="..\..\304_PERFECT_FORWARDING\forwarding11.cpp">
       <Filter>소스 파일\304_PERFECT_FORWARDING</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\304_PERFECT_FORWARDING\forwarding10_1.cpp">
+      <Filter>소스 파일\304_PERFECT_FORWARDING</Filter>
+    </ClCompile>
+    <ClCompile Include="forwarding12.cpp">
+      <Filter>소스 파일\304_PERFECT_FORWARDING</Filter>
+    </ClCompile>
+    <ClCompile Include="forwarding13.cpp">
+      <Filter>소스 파일\304_PERFECT_FORWARDING</Filter>
+    </ClCompile>
+    <ClCompile Include="forwarding14.cpp">
+      <Filter>소스 파일\304_PERFECT_FORWARDING</Filter>
+    </ClCompile>
+    <ClCompile Include="forwarding15.cpp">
+      <Filter>소스 파일\304_PERFECT_FORWARDING</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\102_THISCALL\ecourse.hpp">
@@ -622,6 +637,12 @@
     </Image>
     <Image Include="..\..\305_VALVUE_CATEGORY\valueCategories.PNG">
       <Filter>소스 파일\305_VALVUE_CATEGORY</Filter>
+    </Image>
+    <Image Include="..\..\304_PERFECT_FORWARDING\make_shared_메모리할당.PNG">
+      <Filter>소스 파일\304_PERFECT_FORWARDING</Filter>
+    </Image>
+    <Image Include="..\..\304_PERFECT_FORWARDING\forwarding15.PNG">
+      <Filter>소스 파일\304_PERFECT_FORWARDING</Filter>
     </Image>
   </ItemGroup>
 </Project>

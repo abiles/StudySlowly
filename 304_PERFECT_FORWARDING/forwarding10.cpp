@@ -7,6 +7,9 @@
 
 #include <iostream>
 using namespace std;
+/*
+static_cast<T&&>(arg); T의 타입에 따라 rvalue 또는 lvalue 캐스팅
+*/
 
 void goo(int& a)  { cout << "goo" << endl; }
 void hoo(int&& a) { cout << "hoo" << endl; }
@@ -22,6 +25,8 @@ void chronometry(F f, T&& arg)
 {
 	//f(static_cast<T&&>(arg));
 
+	//// 그냥 foward() 이걸로 보내면 안돼, 꼭 <T> 포함해야됨, T 없으면 컴파일러가 알아서 추론함
+	//// 그러면 원하는 방식으로 추론안됨, 그림 참조
 	f(forward<T&&>(static_cast<int&&>(arg))); 
 
 	// lvalue 일때 T : int& => int&

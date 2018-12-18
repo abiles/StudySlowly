@@ -28,6 +28,6 @@ int main()
 
 
 	shared_ptr<Point> sp
-		= make_shared<Point>(1, 2);
+		= make_shared<Point>(1, 2);	//// ¿©±âµµ perfect forwarding
 	
 }
