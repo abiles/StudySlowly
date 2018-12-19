@@ -27,7 +27,8 @@ struct Greater
 //void Sort(int* x, int n, Less cmp )
 
 // 정책 변경가능하고 정책이 인라인 치환되는 함수. ( 템플릿 + 함수 객체)
-template<typename T> void Sort(int* x, int n, T cmp)
+template<typename T> 
+void Sort(int* x, int n, T cmp)
 {
 	for (int i = 0; i < n - 1; i++)
 	{
@@ -41,8 +42,14 @@ template<typename T> void Sort(int* x, int n, T cmp)
 int main()
 {
 	int x[10] = { 1,3,5,7,9,2,4,6,8,10 };
-	Less	f1; // 타입 Less
-	Greater f2; // 타입 Greater
+
+	//// signature가 같지만 서로 다른 타입
+	//// 함수 객체는 자신만의 타입이 있다
+	//// 그래서 컴파일 시간에 정해질 수 있다
+	//// 인라인 치환 될 수 있다
+	Less	f1;			// 타입 Less
+	Greater f2;		// 타입 Greater
+	
 	Sort(x, 10, f1); // 
 	Sort(x, 10, f2); // 
 }

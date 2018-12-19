@@ -61,6 +61,12 @@
     <Filter Include="소스 파일\304_PERFECT_FORWARDING">
       <UniqueIdentifier>{25e66153-8f9c-481f-b628-ad292f842ca4}</UniqueIdentifier>
     </Filter>
+    <Filter Include="소스 파일\401_INLINE">
+      <UniqueIdentifier>{cecd73e3-3b6c-422b-bfb4-cd4be48cae4a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="소스 파일\402_FUNCTOR">
+      <UniqueIdentifier>{445586d4-5fb1-44eb-9edd-d84e223f440d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="..\..\102_THISCALL\this1.cpp">
@@ -582,6 +588,51 @@
     <ClCompile Include="forwarding15.cpp">
       <Filter>소스 파일\304_PERFECT_FORWARDING</Filter>
     </ClCompile>
+    <ClCompile Include="..\..\401_INLINE\add.cpp">
+      <Filter>소스 파일\401_INLINE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\401_INLINE\inline1.cpp">
+      <Filter>소스 파일\401_INLINE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\401_INLINE\inline2.cpp">
+      <Filter>소스 파일\401_INLINE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\401_INLINE\inline3.cpp">
+      <Filter>소스 파일\401_INLINE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\402_FUNCTOR\functor1.cpp">
+      <Filter>소스 파일\402_FUNCTOR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\402_FUNCTOR\functor2.cpp">
+      <Filter>소스 파일\402_FUNCTOR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\402_FUNCTOR\functor3.cpp">
+      <Filter>소스 파일\402_FUNCTOR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\402_FUNCTOR\functor4.cpp">
+      <Filter>소스 파일\402_FUNCTOR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\402_FUNCTOR\functor5.cpp">
+      <Filter>소스 파일\402_FUNCTOR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\402_FUNCTOR\functor6.cpp">
+      <Filter>소스 파일\402_FUNCTOR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\402_FUNCTOR\functor7.cpp">
+      <Filter>소스 파일\402_FUNCTOR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\402_FUNCTOR\functor8.cpp">
+      <Filter>소스 파일\402_FUNCTOR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\402_FUNCTOR\functor9.cpp">
+      <Filter>소스 파일\402_FUNCTOR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\402_FUNCTOR\functor10.cpp">
+      <Filter>소스 파일\402_FUNCTOR</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\402_FUNCTOR\logo.cpp">
+      <Filter>소스 파일\402_FUNCTOR</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="..\..\102_THISCALL\ecourse.hpp">
@@ -595,6 +646,9 @@
     </ClInclude>
     <ClInclude Include="..\..\303_MOVE\Test.h">
       <Filter>소스 파일\303_MOVE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\401_INLINE\add.h">
+      <Filter>소스 파일\401_INLINE</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>
@@ -621,6 +675,12 @@
     </Text>
     <Text Include="..\..\304_PERFECT_FORWARDING\readme.txt">
       <Filter>소스 파일\304_PERFECT_FORWARDING</Filter>
+    </Text>
+    <Text Include="..\..\401_INLINE\readme.txt">
+      <Filter>소스 파일\401_INLINE</Filter>
+    </Text>
+    <Text Include="..\..\402_FUNCTOR\readme.txt">
+      <Filter>소스 파일\402_FUNCTOR</Filter>
     </Text>
   </ItemGroup>
   <ItemGroup>

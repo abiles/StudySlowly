@@ -313,6 +313,21 @@
     <ClCompile Include="..\..\305_VALVUE_CATEGORY\valueCategories.cpp" />
     <ClCompile Include="..\..\305_VALVUE_CATEGORY\valueCategories2.cpp" />
     <ClCompile Include="..\..\305_VALVUE_CATEGORY\valueCategories3.cpp" />
+    <ClCompile Include="..\..\401_INLINE\add.cpp" />
+    <ClCompile Include="..\..\401_INLINE\inline1.cpp" />
+    <ClCompile Include="..\..\401_INLINE\inline2.cpp" />
+    <ClCompile Include="..\..\401_INLINE\inline3.cpp" />
+    <ClCompile Include="..\..\402_FUNCTOR\functor1.cpp" />
+    <ClCompile Include="..\..\402_FUNCTOR\functor10.cpp" />
+    <ClCompile Include="..\..\402_FUNCTOR\functor2.cpp" />
+    <ClCompile Include="..\..\402_FUNCTOR\functor3.cpp" />
+    <ClCompile Include="..\..\402_FUNCTOR\functor4.cpp" />
+    <ClCompile Include="..\..\402_FUNCTOR\functor5.cpp" />
+    <ClCompile Include="..\..\402_FUNCTOR\functor6.cpp" />
+    <ClCompile Include="..\..\402_FUNCTOR\functor7.cpp" />
+    <ClCompile Include="..\..\402_FUNCTOR\functor8.cpp" />
+    <ClCompile Include="..\..\402_FUNCTOR\functor9.cpp" />
+    <ClCompile Include="..\..\402_FUNCTOR\logo.cpp" />
     <ClCompile Include="class1.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="forwarding12.cpp" />
@@ -325,6 +340,7 @@
     <ClInclude Include="..\..\103_CONST_MEMBER_FUNCTION\Point.h" />
     <ClInclude Include="..\..\105_NAME_MANGLING\square.h" />
     <ClInclude Include="..\..\303_MOVE\Test.h" />
+    <ClInclude Include="..\..\401_INLINE\add.h" />
   </ItemGroup>
   <ItemGroup>
     <Text Include="..\..\107_CONVERSION\readme.txt" />
@@ -335,6 +351,8 @@
     <Text Include="..\..\302_RVALUE_REFERENCE\readme.txt" />
     <Text Include="..\..\303_MOVE\readme.txt" />
     <Text Include="..\..\304_PERFECT_FORWARDING\readme.txt" />
+    <Text Include="..\..\401_INLINE\readme.txt" />
+    <Text Include="..\..\402_FUNCTOR\readme.txt" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\201_CPP14\README" />

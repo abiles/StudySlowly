@@ -9,10 +9,11 @@
 #include <string>
 #include <bitset>	
 using namespace std;
+//// 이걸로 우리 패킷 보기 쉽게 할 수 없나?
 
 int main()
 {
-	bitset<10> bs;
+	bitset<10> bs;		//// 10 bit를 관리하겠다는 뜻
 
 	bs.reset(); // 모든 요소를 0
 	bs.reset(4); // 4번째 비트를 0으로

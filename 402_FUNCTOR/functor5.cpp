@@ -7,6 +7,7 @@
 
 #include <algorithm>
 using namespace std;
+//// fuction vs functor
 
 // 일반 함수
 inline bool cmp1(int a, int b) { return a > b; }
@@ -23,9 +24,9 @@ int main()
 	// STL sort : 모든 인자가 템플릿으로 되어 있다
 	// 1. 비교정책으로 일반함수를 전달할때.
 	// 장점 : 정책을 교체해도 sort()기계어는 한개이다. - 코드 메모리 절약
-	// 단점 : 정책 함수가 인라인 치환될수 없다.
+	// 단점 : 정책 함수가 인라인 치환될수 없다. ( 정책 함수 부분은 호출 되어야 하니까)
 	sort(x, x + 10, cmp1); // sort( int*, int*, bool(*)(int, int)) 인 함수 생성.
-	sort(x, x + 10, cmp2); // sort( int*, int*, bool(*)(int, int)) 인 함수 생성.
+	sort(x, x + 10, cmp2); // sort( int*, int*, bool(*)(int, int)) 인 함수 생성. //// 같은 모양이니 sort 기계어 코드는 1개만 만든다
 
 	// 2. 비교정책으로 함수객체 전달할때.
 	// 장점 : 정책함수가 인라인 치환될수 있다 - 빠르다.!

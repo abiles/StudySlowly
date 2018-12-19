@@ -23,7 +23,7 @@ int main()
 {
 	Plus p; // Plus 타입의 객체
 
-	int n = p(1, 2); // p.operator()(1,2)
+	int n = p(1, 2); // p.operator()(1,2) //// 어떤 객체를 함수호출하는 것처럼 쓸수 있으면 '함수객체' 'functor'
 
 	cout << n << endl; // 3
 
