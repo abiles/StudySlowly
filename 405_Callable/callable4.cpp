@@ -19,9 +19,11 @@ int main()
 	invoke(&Dialog::setColor, &dlg, 2); 
 						// dlg.setColor(2);
 
-	// 멤버 변수 포인터
+	// 멤버 '변수' 포인터
+	//// dlg의 color를 불러오겠다
 	invoke(&Dialog::color, &dlg) = 20;
-			// dlg.color = 20
+	// dlg.color = 20
+
 
 	cout << dlg.color << endl; // 20
 

@@ -10,6 +10,7 @@ using namespace std;
 
 int main()
 {
+
 //	int v1 = 10, v2 = 20;
 //	auto f1 = [y = v1](int a) { return a + y; };
 

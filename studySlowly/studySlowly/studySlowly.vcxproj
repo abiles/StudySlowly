@@ -328,6 +328,31 @@
     <ClCompile Include="..\..\402_FUNCTOR\functor8.cpp" />
     <ClCompile Include="..\..\402_FUNCTOR\functor9.cpp" />
     <ClCompile Include="..\..\402_FUNCTOR\logo.cpp" />
+    <ClCompile Include="..\..\403_LAMBDA_EXPRESSION\closure.cpp" />
+    <ClCompile Include="..\..\403_LAMBDA_EXPRESSION\closure2.cpp" />
+    <ClCompile Include="..\..\403_LAMBDA_EXPRESSION\lambda1.cpp" />
+    <ClCompile Include="..\..\403_LAMBDA_EXPRESSION\lambda10.cpp" />
+    <ClCompile Include="..\..\403_LAMBDA_EXPRESSION\lambda11.cpp" />
+    <ClCompile Include="..\..\403_LAMBDA_EXPRESSION\lambda12.cpp" />
+    <ClCompile Include="..\..\403_LAMBDA_EXPRESSION\lambda13.cpp" />
+    <ClCompile Include="..\..\403_LAMBDA_EXPRESSION\lambda14.cpp" />
+    <ClCompile Include="..\..\403_LAMBDA_EXPRESSION\lambda15.cpp" />
+    <ClCompile Include="..\..\403_LAMBDA_EXPRESSION\lambda16.cpp" />
+    <ClCompile Include="..\..\403_LAMBDA_EXPRESSION\lambda17.cpp" />
+    <ClCompile Include="..\..\403_LAMBDA_EXPRESSION\lambda2.cpp" />
+    <ClCompile Include="..\..\403_LAMBDA_EXPRESSION\lambda3.cpp" />
+    <ClCompile Include="..\..\403_LAMBDA_EXPRESSION\lambda4.cpp" />
+    <ClCompile Include="..\..\403_LAMBDA_EXPRESSION\lambda5.cpp" />
+    <ClCompile Include="..\..\403_LAMBDA_EXPRESSION\lambda6.cpp" />
+    <ClCompile Include="..\..\403_LAMBDA_EXPRESSION\lambda7.cpp" />
+    <ClCompile Include="..\..\403_LAMBDA_EXPRESSION\lambda8.cpp" />
+    <ClCompile Include="..\..\403_LAMBDA_EXPRESSION\lambda9.cpp" />
+    <ClCompile Include="..\..\403_LAMBDA_EXPRESSION\milambda.cpp" />
+    <ClCompile Include="..\..\403_LAMBDA_EXPRESSION\milambda2.cpp" />
+    <ClCompile Include="..\..\405_Callable\callable1.cpp" />
+    <ClCompile Include="..\..\405_Callable\callable2.cpp" />
+    <ClCompile Include="..\..\405_Callable\callable3.cpp" />
+    <ClCompile Include="..\..\405_Callable\callable4.cpp" />
     <ClCompile Include="class1.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="forwarding12.cpp" />
@@ -353,10 +378,12 @@
     <Text Include="..\..\304_PERFECT_FORWARDING\readme.txt" />
     <Text Include="..\..\401_INLINE\readme.txt" />
     <Text Include="..\..\402_FUNCTOR\readme.txt" />
+    <Text Include="..\..\403_LAMBDA_EXPRESSION\readme.txt" />
   </ItemGroup>
   <ItemGroup>
     <None Include="..\..\201_CPP14\README" />
     <None Include="..\..\202_CPP17\Readme" />
+    <None Include="..\..\405_Callable\Readme" />
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\..\303_MOVE\Move_Exception.PNG" />

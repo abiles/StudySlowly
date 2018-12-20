@@ -23,7 +23,9 @@ int main()
 	sort(x, x+10, less<int>());
 
 	// C++11. 람다 표현식(lambda expression)
-	sort(x, x + 10, 
-		  [](int a, int b) { return a < b; } );
+	//// 함수 코드 자체를 전달
+	//// 뭐가 이득일까?
+	//// [] => lambda-introducer, 람다 표현식이 시작됨을 나타냄
+	sort(x, x + 10, [](int a, int b) { return a < b; } );
 
 }
